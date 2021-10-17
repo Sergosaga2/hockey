@@ -1,0 +1,42 @@
+body {
+	padding: 0;
+	overflow-x: hidden;
+}
+.container {
+	display: flex;
+	align-items: center;
+	overflow-x: scroll;
+	padding-bottom: 20px;
+}
+::-webkit-scrollbar-track {
+	height: 10px;
+	background-color: transparent;
+}
+::-webkit-scrollbar {
+	height: 10px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+	height: 10px;
+	background-color: silver;
+}
+.block-year {
+	text-align: center;
+	margin: 0 10px;
+}
+.block-year__year {
+	margin-bottom: 10px;
+}
+.flag {
+	width: 50px;
+	border-radius: 50px;
+}
+.mutant {
+	border: 1px solid #fff;
+	box-shadow:0px 0px 10px 6px rgba(189,0,0,1);
+}
+
+.serious {
+	border: 1px solid #fff;
+	box-shadow:0px 0px 10px 6px rgba(255,163,0,1);
+}
